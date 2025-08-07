@@ -1,22 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.div-logo {
+    background-color:#F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 
-
-
-
-
-
-
-.TopHLeft{
-  display: flex;
-  justify-content: center; /* Centers the menu items */
-  align-items: center;
-  background-color: #333;
-  padding: 0;
-  margin: 0;
-  height: 60px;
 }
 
-.li-manage-booking{
-    color: rgb(68, 68, 68);
+header img {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
 
+.nav-item ,
+.li-headerrow {
+    display: inline; /* Displays list items horizontally */
+    margin-left: 40px; /* Space between menu items */
+    border: solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FF8601
+}
+
+.nav-item a,
+.li-headerrow a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Sets link color */
+    font-family: 'Arial', sans-serif; /* Sets font family */
+    font-size: 20px; /* Sets font size */
+    font-weight: 600;
+}
+
+.nav-item :hover,
+.li-headerrow :hover{
+    background-color: #a1a1a1; /* Background color on hover */
+}
+
+.nav-bar {
+    padding: 0 24px;
+    background-color: #000000
+}
+
+.nav-list {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+}
+.nav-item {
+      position: relative;
+      background-color: #000000
+}
+
+.div-webmap{
+  max-width: 1320px;
+  margin-left: 350px;
+}
+
+.div-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F6F6F6
+    
+}
+
+.div-copyright{
+  background-color: #444444;
+}
+
+.ul-footer-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  border: none ;
+}
+.ul-footer-list li{
+  display: flex;
+  padding-left: 0px;
+  list-style: none;
+  font-size: 11px;
+  line-height: 1.8 ;
+  background-color: #F6F6F6
+  
+  
+}
+.ul-footer-list li a{
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: large;
+}
+
+.h6-name{
+  font-size: larger;
+  margin-bottom: 25px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.div-copyright{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 12% 12px 350px;
 }
