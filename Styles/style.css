@@ -120,3 +120,162 @@ header img {
   gap: 10px;
   padding: 12px 12% 12px 350px;
 }
+
+
+.img-wallpaper {
+  width: 100%; /* Or whatever width you want the container to be */
+}
+
+.img-wallpaper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.search-container {
+    padding: 0 180px 0 350px;
+    margin: 0 0 5px 0px;
+    height: 150px;
+}
+
+.header-search {
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header-search ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-search ul li {
+    display: flex;
+    text-decoration: none;
+}
+
+.header-search ul li:active{
+  background-color: #FF8601;
+  color: #F6F6F6;
+  
+}
+
+.search-body {
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0.5px 5px rgb(189, 189, 189);
+}
+
+.search-body ul{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-content: center;
+  padding-top: 50px;
+  padding-right: 10px;
+  
+}
+
+.search-body ul li{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.search-body ul li label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  font-weight:bold;
+}
+
+.search-body ul li input{
+  display: flex;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-size: smaller;
+}
+
+.search-body ul li button{
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    background-color: #FF8601;
+    color: #F6F6F6;
+    box-shadow: none;
+}
+
+.search-body ul li button:hover{
+background-color: #a1a1a1; /* Background color on hover */
+}
+
+.rentcar{
+  display: flex;
+  padding: 0 180px 0 350px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.rentcar p{
+  font-size: x-small;
+}
+
+.img-rent{
+  width: 300px;
+  object-fit: cover;
+}
+
+.car{
+  border: 1px solid #ddd;
+  width: 300px;
+  height: 450px;
+  
+}
+.car-header{
+  display: flex;
+}
+
+.car-header h3{
+  color:#FF8601;
+  text-align: center;
+  padding-top: 5px;
+}
+
+h5{
+  text-align: center;
+}
+
+.car-header img{
+  padding: 5px;
+  object-fit: cover;
+}
+
+p {
+  color: #a1a1a1;
+  text-align:center;
+  padding-top: 16px;
+  padding-left: 5px;
+  font-size: small;
+}
+
+img.img-rent {
+    width: 80%;
+    padding: 40px 0px 10px 0;
+    margin-left: 10%;
+}
+
+.car button{
+  display: inline; /* Displays list items horizontally */
+  margin: 10px 80px; /* Space between menu items */
+  border: 1px solid #000000;
+  padding: 5px 40px 5px 40px;
+  border-radius: 5px;
+  background-color: #FF8601
+  
+}
+
+.car button a{
+  text-decoration: none;
+  color: #F6F6F6;
+  font-weight: 800;
+  font-size: small;
+}
